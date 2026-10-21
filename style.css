@@ -1,0 +1,140 @@
+body{
+    padding:0;
+    margin-top: 0;
+    background:#b0c77b;
+}
+.navbar{
+    background-color: #6ab446;
+    z-index: 10;
+}
+.nav-link,
+.navbar-brand{
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link{
+    margin-right: 1em !important;
+
+}
+.nav-link:hover{color: #000; }
+.navbar-collapse{justify-content: flex-end;}
+.header{
+    background-image: url("./pix2.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.description{
+
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    color: #6ab446;
+    text-align: center;
+}
+.description p{
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+.description button{
+    border: 1px solid #6ab446;
+    background: #6ab446;
+    border-radius: 0;
+    color: #fff;
+}
+.description button:hover{
+    border: 1px solid #fff;
+    background: #a05353;
+    color: #000;
+}
+
+.feature {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+
+.feature-title {
+    color: #9e1a1a;
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.feature img {
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+.background{
+    background: #dedec8;
+    padding: 4em 0;
+}
+.team{
+    color: #5e5e55;
+    padding: 0 180px;
+}
+.team .card-columns{
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    columns-count:4 ;
+
+}
+.team .card {
+    background: none;
+    border: none;
+}
+.team .card-title{
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.page-footer{
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+.footer-copyright{
+    color: #666;
+    padding: 40px 0;
+
+
+}
+@media(max-width: 575.98px){
+    .description{
+        left: 0;
+        top: 10%;
+        padding: 0 20px;
+        position: absolute;
+        
+        transform: none;
+        text-align: center;
+    }
+
+    .header{
+        height: 60vh;
+    }
+    .description h1 {
+        font-size: 2em;
+    }
+    .description p{
+        font-size: 1.2rem;
+    }
+    .features {
+        margin: 0;
+    }
+}
+
+
